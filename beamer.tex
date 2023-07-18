@@ -1,0 +1,95 @@
+\documentclass[10pt]{beamer}
+
+\usetheme[progressbar=frametitle]{metropolis}
+\usepackage{appendixnumberbeamer}
+
+\usepackage{booktabs}
+\usepackage[scale=2]{ccicons}
+
+\usepackage{pgfplots}
+\usepgfplotslibrary{dateplot}
+
+\usepackage{xspace}
+\newcommand{\themename}{\textbf{\textsc{metropolis}}\xspace}
+
+\title{Simulation in Chemistry}
+\subtitle{General information}
+% \date{\today}
+\date{}
+\author{Asdrubal Lozada}
+%\institute{Center for modern beamer themes}
+% \titlegraphic{\hfill\includegraphics[height=1.5cm]{logo.pdf}}
+
+\begin{document}
+
+\maketitle
+
+\begin{frame}{Techniques}
+  \setbeamertemplate{section in toc}[sections numbered]
+  \tableofcontents%[hideallsubsections]
+\end{frame}
+
+\begin{frame}[frame]{About}
+    This document provides an overview of computational simulation techniques commonly used in condensed matter physics, chemistry, and materials science. It also provides a lists the programs, software packages, or frameworks employed for such simulations.
+\end{frame}
+
+\section[Stochastic]{Stochastic Simulation}
+
+\begin{frame}[fragile]{Programs}
+
+  \begin{itemize}
+      \item Melquiades (GPL)
+      \item DL-Monte (BSD)
+      \item Cassandra (GPL)
+      \item GOMC (MIT)
+      \item Dice (GPL)
+  \end{itemize}
+\end{frame}
+
+\section[Dynamics]{Molecular Dynamics}
+
+\begin{frame}[fragile]{Programs}
+	\begin{itemize}
+	    \item Gromacs (LGPL)
+        \item Lammps (GPL)
+        \item CP2K (GPL)
+        \item Tinker (Tinker license)
+    \end{itemize}
+\end{frame}
+
+\section[Quantum]{Quantum Chemistry}
+
+\begin{frame}[fragile]{Programs}
+  \begin{itemize}
+      \item CP2K (GPL)
+      \item ORCA (Academic)
+      \item MOPAC (LGPL)
+      \item Quantum Espresso (GPL)
+      \item Octopus (GPL)
+      \item XTB (LGPL)
+      \item DFTB (LGPL)
+  \end{itemize}
+\end{frame}
+
+
+\section[Edit]{Edition \& Visualization}
+
+\begin{frame}[fragile]{Programs}
+  \begin{itemize}
+      \item Molden (Molden license)
+      \item Travis (GPL)
+      \item Gabedit (Gabedit license)
+      \item Jmol (LGPL)
+      \item Avogadro (GPL)
+      \item VMD (VMD license)
+      \item Molekel (GPL)
+      \item EasyHibrid (Open)
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \textcolor{gray}{This document use the "Metropolis Beamer Theme\\
+    (C) Matthias Vogelgesang, 2014. Licensed as LaTeX Project Public License 1.3c }
+\end{frame}
+
+\end{document}
